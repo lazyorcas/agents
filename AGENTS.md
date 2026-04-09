@@ -19,7 +19,7 @@ This file provides guidance to AI coding agents working with this repository.
 
 ## Core Workflows
 
-### Implement a new feature
+### Implementing a new feature
 
 1. Write a high-level feature design in [docs/features/](docs/features/)
 2. Make the feature work

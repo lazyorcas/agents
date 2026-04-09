@@ -2,7 +2,6 @@
 name: react-engineering
 description: Frontend engineering in React + TypeScript. Use this skill when the author asks to work with the frontend or stories.
 todo:
-  - Create a BRANDING.md file.
   - Help the author add a "Security & Privacy" section to this file.
 ---
 
@@ -26,9 +25,9 @@ This skill uses the following technologies/libraries:
 
 ## Core Workflows
 
-### Implementing the theme
+### Creating the theme
 
-See [theming.md](references/theming.md).
+See [theme-scaffolding.md](references/theme-scaffolding.md) for instructions on creating the theme using shadcn's "Create Project".
 
 ### Building a component
 

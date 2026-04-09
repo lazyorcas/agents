@@ -14,7 +14,7 @@
 
 1. Build a short list of websites in a similar mission or space (search, bookmarks, or well-known examples).
 2. For each URL in order: open it (or focus the tab), show the author the page (snapshot and/or screenshot so they see what you see).
-3. Ask for a binary reaction only: **Nice** or **Nah**. Record the URL and reaction before moving on.
+3. Ask for a binary reaction only: **nice** or **nah**. Record the URL and reaction before moving on.
 4. Repeat until the list is done or the author says they are satisfied.
 
 ### Understanding branding

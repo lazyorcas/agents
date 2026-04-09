@@ -8,10 +8,6 @@ todo:
 
 # Frontend Engineering
 
-## Branding
-
-Refer to [BRANDING.md](BRANDING.md) for the branding guidelines.
-
 ## Tech Stack
 
 This skill uses the following technologies/libraries:
@@ -29,6 +25,10 @@ This skill uses the following technologies/libraries:
 - View components are stored inside the `@/components/view` folder.
 
 ## Core Workflows
+
+### Implementing the theme
+
+See [theming.md](references/theming.md).
 
 ### Building a component
 

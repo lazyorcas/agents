@@ -41,8 +41,8 @@ Ask only what is still unknown. Group them mentally as: brand personality, visua
   - Body / UI?
 
 Rules:
-- Limit to max. 2 font families.
-- Use [Fontshare](https://www.fontshare.com/) and [Google Fonts](https://fonts.google.com/).
+- Limit to max. 2 font families
+- Use [Fontshare](https://www.fontshare.com/) and [Google Fonts](https://fonts.google.com/)
 
 ### Inspirations
 

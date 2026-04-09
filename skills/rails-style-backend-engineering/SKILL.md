@@ -1,13 +1,11 @@
 ---
 name: rails-style-backend-engineering
-description: Backend engineering in Rails/37signals style. Use this skill when the author asks to work with the backend in a 
+description: Backend engineering in Rails/37signals style. Use this skill when the author asks to work with the backend.
+todo:
+  - Find and install the project's backend framework skill
 ---
 
 # Backend Engineering
-
-## Setup
-
-You are required to help the author find a skill for this particular backend framework.
 
 ## Developer Happiness
 

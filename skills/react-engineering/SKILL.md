@@ -3,7 +3,7 @@ name: react-engineering
 description: Frontend engineering in React + TypeScript. Use this skill when the author asks to work with the frontend or stories.
 todo:
   - Create a BRANDING.md file.
-  - Add a "Security & Privacy" section.
+  - Help the author add a "Security & Privacy" section to this file.
 ---
 
 # Frontend Engineering

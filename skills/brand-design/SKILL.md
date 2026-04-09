@@ -1,6 +1,6 @@
 ---
 name: brand-design
-description: Produce branding guidelines with a verbal description and a visual implementation of the brand. Use when the author wants to create, revise, or expand the branding.
+description: Produce branding guidelines with a verbal description and a visual implementation of the brand. Use this skill when the author wants to create, revise, or expand the branding.
 ---
 
 # Brand Designer

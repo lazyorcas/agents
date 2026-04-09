@@ -15,7 +15,7 @@ Both files should be placed in the project root.
 
 1. **Scoping**: New `BRANDING.md` or replace/merge sections in the existing file?
 2. **Discovery**: Run through [Discovery Questions](#discovery-questions). If the author already answered some, skip those.
-3. **Write**: Create/update the `BRANDING.md`.
+3. **Write**: Create or update the `BRANDING.md`.
 4. **Show**: Generate and replace the `BRANDING.html` file.
 
 ## Discovery Questions
@@ -49,45 +49,9 @@ Rules:
 - Ask for inspirations from other products (links). 
     - Be helpful by giving suggestions if nothing comes in mind for the author.
 
-## `BRANDING.md` template
+## Creating/Updating `BRANDING.md`
 
-```md
-# BRANDING.md
-
-This file provides an overview of the branding of the project.
-
-## Branding
-
-### Emotions
-
-[Product name] should provoke the following feelings and emotions:
-- …
-
-### Vibes
-
-[Product name] should be perceived as:
-- …
-
-### Color
-
-[Palette reference or link]
-
-Tokens:
-- `primary`: …
-- `secondary`: …
-- …
-
-### Typography
-
-- Headings & Display: …
-- Body & Paragraph: …
-
-## Inspirations
-
-- [Name](https://…)
-
-Do not copy the inspirations directly. Adapt the patterns to [product]’s brand voice.
-```
+Use the template: [branding-md-template.md](references/branding-md-template.md).
 
 ## Generating `BRANDING.html`
 

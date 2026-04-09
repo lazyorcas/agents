@@ -25,7 +25,7 @@ This file provides guidance to AI coding agents working with this repository.
 2. Make the feature work
     - Maximize delivery speed
     - Skip most rules, except security & privacy
-3. Ask the developer to review
+3. Ask the developer to test the feature
 4. Make the code easy to review and maintain
 
 ## Developer Happiness

@@ -11,25 +11,25 @@ Rules:
 ### Centering an element
 
 ```tsx
-  <div className="size-full flex justify-center items-center">
-    {/* Element */}
-  </div>
+<div className="size-full flex justify-center items-center">
+  {/* Element */}
+</div>
 ```
 
 ### Growing a child element
 
 ```tsx
-  // Horizontally
-  <div className="flex flex-row"> {/* Parent */}
-    <div className="shrink-0">{/* Fixed-size child element*/}</div>
-    <div className="min-w-0 grow">{/* Growing child element */}</div>
-  </div>
+// Horizontally
+<div className="flex flex-row"> {/* Parent */}
+  <div className="shrink-0">{/* Fixed-size child element*/}</div>
+  <div className="min-w-0 grow">{/* Growing child element */}</div>
+</div>
 
-  // Vertically
-  <div className="flex flex-col"> {/* Parent */}
-    <div className="shrink-0">{/* Fixed-size child element*/}</div>
-    <div className="min-h-0 grow">{/* Growing child element */}</div>
-  </div>
+// Vertically
+<div className="flex flex-col"> {/* Parent */}
+  <div className="shrink-0">{/* Fixed-size child element*/}</div>
+  <div className="min-h-0 grow">{/* Growing child element */}</div>
+</div>
 ```
 
 ## Dark Mode

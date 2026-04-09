@@ -22,24 +22,24 @@ Rules:
 
 Example:
 ```tsx
-  import { MessageList } from "@/components"
+import { MessageList } from "@/components"
 
-  const ChatDataLoader = ({ chatId, children }) => {
-    const chat = getChat(chatId)
-    return children(chat)
-  }
+const ChatDataLoader = ({ chatId, children }) => {
+  const chat = getChat(chatId)
+  return children(chat)
+}
 
-  const ChatView = () => (
-    <ChatDataLoader>
-      {(chat) => (
-        <MessageList>
-          {(chat.message.map((message) => (
-            <MessageItem>
-              {message}
-            </MessageItem>
-          )))}
-        </MessageList>
-      )}
-    </ChatDataLoader>
-  )
+const ChatView = () => (
+  <ChatDataLoader>
+    {(chat) => (
+      <MessageList>
+        {(chat.message.map((message) => (
+          <MessageItem>
+            {message}
+          </MessageItem>
+        )))}
+      </MessageList>
+    )}
+  </ChatDataLoader>
+)
 ```

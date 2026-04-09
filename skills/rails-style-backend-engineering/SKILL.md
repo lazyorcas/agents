@@ -19,27 +19,27 @@ Rules:
     - Don't use repositories.
 - Prefer CRUD operations. Otherwise, create an application-layer model (not tied 1:1 to a DB entity).
   ```rb
-    # Bad
-    class Message < ApplicationRecord
-      def create_multiple_messages
-        # ...
-      end
+  # Bad
+  class Message < ApplicationRecord
+    def create_multiple_messages
+      # ...
     end
+  end
 
-    # Good
-    class Message < ApplicationRecord; end
-    class BatchMessageTask
-      def create
-        # ...
-      end
+  # Good
+  class Message < ApplicationRecord; end
+  class BatchMessageTask
+    def create
+      # ...
     end
+  end
   ```
 - Prefer separation of concerns to maintain the "Prefer Short Files" rule.
   ```rb
-    class Message
-      include Deleteable
-      include Referenceable
-    end
+  class Message
+    include Deleteable
+    include Referenceable
+  end
   ```
 - Adopt Rails's naming convention:
     - Tables in Plural Form e.g. `messages`, `users`

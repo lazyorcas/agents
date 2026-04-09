@@ -22,27 +22,27 @@ Each component's filename must have a suffix that contains the component type.
 ### Examples
 
 ```tsx
-  // Base UI components
-  import { Input, Label } from "@/components/ui"
+// Base UI components
+import { Input, Label } from "@/components/ui"
 
-  // Custom UI component - @/components/ui/chat-input.tsx
-  const ChatInput = () => (
-    <div>
-      <Label>Message: </Label>
-      <Input />
-    </div>
+// Custom UI component - @/components/ui/chat-input.tsx
+const ChatInput = () => (
+  <div>
+    <Label>Message: </Label>
+    <Input />
+  </div>
+)
+
+// View component - @/components/view/chat/chat-header.tsx
+const ChatHeader = () => {
+  const { chat } = useContext(ChatContext)
+  return (
+    <header>
+      <h2>{chat.title}</h2>
+      <p>{chat.lastUpdatedAt}</p>
+    </header>
   )
-
-  // View component - @/components/view/chat/chat-header.tsx
-  const ChatHeader = () => {
-    const { chat } = useContext(ChatContext)
-    return (
-      <header>
-        <h2>{chat.title}</h2>
-        <p>{chat.lastUpdatedAt}</p>
-      </header>
-    )
-  }
+}
 ```
 
 ## Before creating a component

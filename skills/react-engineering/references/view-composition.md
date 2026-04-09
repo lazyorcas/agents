@@ -20,13 +20,13 @@ Rules:
 - When many views (at least 3) share a similar structure, it's time to create a reusable layout.
 - Prefer contexts for prop drilling, especially when the props make sense on the view-level.
     ```tsx
-      const ChatLayout = () => (
-        <ChatDataLoader>
-          {(chat) => (
-            <ChatContext value={{ chat }}>
-              {/* ... */}
-            </ChatContext>
-          )}
-        </ChatDataLoader>
-      )
+    const ChatLayout = () => (
+      <ChatDataLoader>
+        {(chat) => (
+          <ChatContext value={{ chat }}>
+            {/* ... */}
+          </ChatContext>
+        )}
+      </ChatDataLoader>
+    )
     ```

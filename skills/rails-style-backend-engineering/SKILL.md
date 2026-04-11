@@ -1,15 +1,15 @@
 ---
 name: rails-style-backend-engineering
-description: Backend engineering in Rails/37signals style. Use this skill when the author asks to work with the backend.
+description: Backend engineering inspired by Ruby on Rails and 37signals—fat models, thin controllers/handlers, minimal service/repository layers, clear naming—for any backend stack. Use when the author works on server-side or app-native backend code. Map the Ruby examples to the project's equivalence.
 todo:
-  - Find and install the project's backend framework skill
+  - Apply these rules in the project’s actual backend language and frameworks; pair with a stack-specific skill when one exists
 ---
 
 # Backend Engineering
 
 ## Developer Happiness
 
-The author is an advocate of Ruby on Rails and 37signals dev philosophy.
+The author favors **Rails and 37signals-style** product/backend engineering, taken as **principles**, not as a requirement to use Ruby. Examples below use Rails syntax for clarity; implement the same ideas in whatever stack the repo uses.
 
 Rules:
 - Prefer validations, rules, and logic in models.

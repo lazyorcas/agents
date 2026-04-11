@@ -21,7 +21,7 @@ This file provides guidance to AI coding agents working with this repository.
 
 ### Implementing a new feature
 
-1. Write a high-level feature design in [docs/features/](docs/features/)
+1. Write a high-level feature design in `docs/features/<feature-slug>/DESIGN.md`
 2. Make the feature work
     - Maximize delivery speed
     - Skip most rules, except security & privacy

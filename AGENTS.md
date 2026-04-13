@@ -27,7 +27,6 @@ This file provides guidance to AI coding agents working with this repository.
     - Skip most rules, except security & privacy
 3. Ask the developer to test the feature
 4. **Finalize**: Make the code easy to review and maintain
-5. Prepare for review
 
 ## Developer Happiness
 

@@ -22,11 +22,11 @@ This file provides guidance to AI coding agents working with this repository.
 ### Implementing a new feature
 
 1. Write a high-level feature design in `docs/features/<feature-slug>/DESIGN.md`
-2. Make the feature work
+2. **Prototype**: Make the feature work
     - Maximize delivery speed
     - Skip most rules, except security & privacy
 3. Ask the developer to test the feature
-4. Make the code easy to review and maintain
+4. **Finalize**: Make the code easy to review and maintain
 
 ## Developer Happiness
 
